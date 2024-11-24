@@ -1,4 +1,4 @@
 #!/bin/bash     # shebang
 # Create daily backup
-mkdir -p ~/backup
+mkdir -p ~/backup   
 cp ~/important_file.txt ~/backup/important_file_$(date +%Y%m%d).txt
