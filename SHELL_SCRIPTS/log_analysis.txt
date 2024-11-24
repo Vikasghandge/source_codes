@@ -1,0 +1,4 @@
+#!/bin/bash
+# Find all error messages in a log file
+grep "ERROR" /var/log/syslog > error_logs.txt
+echo "Error logs saved to error_logs.txt"
